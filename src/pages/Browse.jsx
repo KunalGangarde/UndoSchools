@@ -89,7 +89,7 @@ const [activeTime, setActiveTime] = useState(2);
         <img src="/kid-left.png" className="hidden md:block absolute left-[-20px] bottom-0 h-[340px]" />
         <img src="/kid-right.png" className="hidden md:block absolute right-[-20px] bottom-0 h-[340px]" />
 
-        <div className="max-w-[1200px] mx-auto px-6 py-24 text-center relative z-10">
+        <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-24 text-center relative z-10">
 
           <h1 className="text-[56px] font-semibold">Learn a New Skill</h1>
 
@@ -150,7 +150,7 @@ const [activeTime, setActiveTime] = useState(2);
       {/* ================= AGE ================= */}
    <section className="w-full bg-[#f5f5f7] py-14">
 
-  <div className="max-w-[1200px] mx-auto px-6 text-center">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
 
     {/* TITLE */}
     <h2 className="text-[36px] md:text-[42px] font-semibold text-gray-800">
@@ -246,7 +246,7 @@ const [activeTime, setActiveTime] = useState(2);
       {/* ================= NEW LAUNCHES ================= */}
 <section className="w-full bg-[#f5f5f7] py-16 relative">
 
-  <div className="max-w-[1200px] mx-auto px-6">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
     <div className="text-center mb-10">
       <h2 className="text-4xl font-semibold">New Launches ⭐</h2>
@@ -353,7 +353,7 @@ const [activeTime, setActiveTime] = useState(2);
 {/* ================= FEATURED COURSES ================= */}
 <section className="w-full bg-[#f5f5f7] py-16 relative">
 
-  <div className="max-w-[1200px] mx-auto px-6">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
     {/* TITLE */}
     <div className="text-center mb-10">
@@ -462,7 +462,7 @@ const [activeTime, setActiveTime] = useState(2);
 {/* ================= TOP TEACHERS ================= */}
 <section className="w-full bg-[#f5f5f7] py-16">
 
-  <div className="max-w-[1200px] mx-auto px-6 text-center">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
 
     {/* TITLE */}
     <h2 className="text-4xl font-semibold text-gray-800">
@@ -531,7 +531,7 @@ const [activeTime, setActiveTime] = useState(2);
 {/* ================= COURSES SLIDER (REUSABLE) ================= */}
 <section className="w-full bg-[#f5f5f7] py-16 relative">
 
-    <div className="max-w-[1200px] mx-auto px-6">
+    <div className="max-w-[1200px] mx-auto px-4 md:px-6">
  {/* LEFT BUTTON */}
     <button
   onClick={() => {
@@ -632,7 +632,7 @@ const [activeTime, setActiveTime] = useState(2);
 {/* ================= WEBINAR SECTION ================= */}
 <section className="w-full bg-[#f5f5f7] py-16 relative">
 
-  <div className="max-w-[1200px] mx-auto px-6">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
     {/* TITLE WITH LINES */}
     <div className="flex items-center justify-center gap-4 mb-10">
@@ -767,7 +767,7 @@ const [activeTime, setActiveTime] = useState(2);
 
  <section className="w-full bg-[#f5f5f7] py-20">
 
-      <div className="max-w-[1200px] mx-auto px-6 text-center">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
 
         {/* TITLE */}
         <h2 className="text-4xl font-semibold text-gray-800">
@@ -828,7 +828,7 @@ const [activeTime, setActiveTime] = useState(2);
     {/* ================= COURSES SLIDER (REUSABLE) ================= */}
 <section className="w-full bg-[#f5f5f7] py-16 relative">
 
-    <div className="max-w-[1200px] mx-auto px-6">
+    <div className="max-w-[1200px] mx-auto px-4 md:px-6">
  {/* LEFT BUTTON */}
     <button
   onClick={() => {
@@ -930,7 +930,7 @@ const [activeTime, setActiveTime] = useState(2);
 {/* ================= FILTER WITH TIME ================= */}
 <section className="w-full bg-[#e9f0ef] py-20 relative">
 
-  <div className="max-w-[1200px] mx-auto px-6">
+  <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
     {/* TITLE */}
     <h2 className="text-4xl font-semibold text-gray-800 text-center">
