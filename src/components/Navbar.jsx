@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="max-w-[1200px] mx-auto px-6 py-3 flex items-center justify-between">
 
         {/* LEFT GROUP */}
-        <div className="flex items-center gap-8">
+        <div className="flex items-center gap-4 md:gap-8">
 
           <div className="w-[100px] h-[40px] flex items-center">
             <img 
@@ -54,19 +54,22 @@ const Navbar = () => {
           </div>
 
           <div className="flex flex-col items-center text-sm font-medium">
-            <span className="text-purple-500">Course</span>
+            <span className="text-purple-500 hidden md:block">Course</span>
             <div className="w-full h-[2px] bg-purple-500 mt-1 rounded-full"></div>
           </div>
 
         </div>
 
         {/* RIGHT */}
-        <div className="flex items-center gap-6">
-          <button className="text-sm text-gray-700">Login</button>
-          <button className="text-sm px-5 py-2 rounded-full text-white bg-gradient-to-r from-purple-600 to-pink-500">
-            Register for free
-          </button>
-        </div>
+        <div className="flex items-center gap-2 md:gap-6">
+  <button className="text-xs md:text-sm text-gray-700 whitespace-nowrap">
+    Login
+  </button>
+
+  <button className="text-xs md:text-sm px-3 md:px-5 py-1.5 md:py-2 rounded-full text-white bg-gradient-to-r from-purple-600 to-pink-500 whitespace-nowrap">
+    Register for free
+  </button>
+</div>
 
       </div>
 
