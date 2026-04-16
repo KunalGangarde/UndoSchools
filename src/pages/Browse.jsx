@@ -148,7 +148,20 @@ const [activeTime, setActiveTime] = useState(2);
       </section>
 
       {/* ================= AGE ================= */}
-      {/* AGE PILLS */}
+   <section className="w-full bg-[#f5f5f7] py-14">
+
+  <div className="max-w-[1200px] mx-auto px-6 text-center">
+
+    {/* TITLE */}
+    <h2 className="text-[36px] md:text-[42px] font-semibold text-gray-800">
+      How Old Are You? 🎯
+    </h2>
+
+    {/* SUBTITLE */}
+    <p className="text-gray-500 mt-2 text-sm md:text-base">
+      Pick your age and find the perfect courses just for you! ✨
+    </p>
+
 <div className="mt-8 flex flex-wrap justify-center gap-3">
 
   {[
@@ -227,6 +240,8 @@ const [activeTime, setActiveTime] = useState(2);
     );
   })}
 </div>
+</div>
+</section>
 
       {/* ================= NEW LAUNCHES ================= */}
 <section className="w-full bg-[#f5f5f7] py-16 relative">
