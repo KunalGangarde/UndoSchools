@@ -162,7 +162,7 @@ const [activeTime, setActiveTime] = useState(2);
       Pick your age and find the perfect courses just for you! ✨
     </p>
 
-<div className="mt-8 flex flex-wrap justify-center gap-3">
+<div className="mt-8 flex overflow-x-auto no-scrollbar justify-center gap-3">
 
   {[
     { label: "1-2 Years", color: "yellow" },
@@ -249,7 +249,7 @@ const [activeTime, setActiveTime] = useState(2);
   <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
     <div className="text-center mb-10">
-      <h2 className="text-4xl font-semibold">New Launches ⭐</h2>
+      <h2 className="text-2xl md:text-4xl font-semibold">New Launches ⭐</h2>
       <p className="text-gray-500 mt-2">
         Our most loved courses that kids absolutely adore!
       </p>
@@ -289,7 +289,7 @@ const [activeTime, setActiveTime] = useState(2);
       {[...Array(12)].map((_, i) => (
         <div
           key={i}
-          className="min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
+          className="min-w-[240px] md:min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
         >
 
           {/* ✅ FIXED TAG POSITION */}
@@ -311,7 +311,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* TAGS */}
-          <div className="flex gap-2 mt-2 flex-wrap">
+          <div className="flex gap-2 mt-2 overflow-x-auto no-scrollbar">
             <span className="text-xs px-2 py-1 border border-blue-300 rounded-full">English</span>
             <span className="text-xs px-2 py-1 border border-red-300 rounded-full">Intermediate</span>
             <span className="text-xs px-2 py-1 border border-yellow-400 rounded-full">4 classes</span>
@@ -328,7 +328,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* FOOTER */}
-          <div className="flex justify-between items-center mt-3 text-xs text-gray-600">
+          <div className="flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-center mt-3 text-xs text-gray-600">
 
             <div className="flex gap-3">
               <span>👤 7–10 yrs</span>
@@ -357,7 +357,7 @@ const [activeTime, setActiveTime] = useState(2);
 
     {/* TITLE */}
     <div className="text-center mb-10">
-      <h2 className="text-4xl font-semibold">Featured Courses ⭐</h2>
+      <h2 className="text-2xl md:text-4xl font-semibold">Featured Courses ⭐</h2>
       <p className="text-gray-500 mt-2">
         Our most loved courses that kids absolutely adore!
       </p>
@@ -398,7 +398,7 @@ const [activeTime, setActiveTime] = useState(2);
       {[...Array(12)].map((_, i) => (
         <div
           key={i}
-          className="min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
+          className="min-w-[240px] md:min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
         >
 
           {/* SELLING FAST */}
@@ -420,7 +420,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* TAGS */}
-          <div className="flex gap-2 mt-2 flex-wrap">
+          <div className="flex gap-2 mt-2 overflow-x-auto no-scrollbar">
             <span className="text-xs px-2 py-1 border border-blue-300 rounded-full">English</span>
             <span className="text-xs px-2 py-1 border border-red-300 rounded-full">Intermediate</span>
             <span className="text-xs px-2 py-1 border border-yellow-400 rounded-full">4 classes</span>
@@ -437,7 +437,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* FOOTER */}
-          <div className="flex justify-between items-center mt-3 text-xs text-gray-600">
+          <div className="flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-center mt-3 text-xs text-gray-600">
 
             <div className="flex gap-3">
               <span>👤 7–10 yrs</span>
@@ -465,7 +465,7 @@ const [activeTime, setActiveTime] = useState(2);
   <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
 
     {/* TITLE */}
-    <h2 className="text-4xl font-semibold text-gray-800">
+    <h2 className="text-2xl md:text-4xl font-semibold text-gray-800">
       Learn from Top Teachers
     </h2>
 
@@ -568,7 +568,7 @@ const [activeTime, setActiveTime] = useState(2);
       {[...Array(12)].map((_, i) => (
         <div
           key={i}
-          className="min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
+          className="min-w-[240px] md:min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
         >
 
           {/* SELLING FAST */}
@@ -590,7 +590,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* TAGS */}
-          <div className="flex gap-2 mt-2 flex-wrap">
+          <div className="flex gap-2 mt-2 overflow-x-auto no-scrollbar">
             <span className="text-xs px-2 py-1 border border-blue-300 rounded-full">English</span>
             <span className="text-xs px-2 py-1 border border-red-300 rounded-full">Intermediate</span>
             <span className="text-xs px-2 py-1 border border-yellow-400 rounded-full">4 classes</span>
@@ -607,7 +607,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* FOOTER */}
-          <div className="flex justify-between items-center mt-3 text-xs text-gray-600">
+          <div className="flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-center mt-3 text-xs text-gray-600">
 
             <div className="flex gap-3">
               <span>👤 7–10 yrs</span>
@@ -642,7 +642,7 @@ const [activeTime, setActiveTime] = useState(2);
         <div className="w-2 h-2 bg-purple-500 rotate-45"></div>
       </div>
 
-      <h2 className="text-4xl font-semibold text-gray-800 text-center">
+      <h2 className="text-2xl md:text-4xl font-semibold text-gray-800 text-center">
         Webinar starting within 24 hrs
       </h2>
 
@@ -695,7 +695,7 @@ const [activeTime, setActiveTime] = useState(2);
 
         <div
           key={i}
-          className="min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
+          className="min-w-[240px] md:min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
         >
 
           {/* SELLING FAST */}
@@ -717,7 +717,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* TAGS */}
-          <div className="flex gap-2 mt-2 flex-wrap">
+          <div className="flex gap-2 mt-2 overflow-x-auto no-scrollbar">
             <span className="text-xs px-2 py-1 border border-blue-300 rounded-full">
               English
             </span>
@@ -738,7 +738,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* FOOTER */}
-          <div className="flex justify-between items-center mt-3 text-xs text-gray-600">
+          <div className="flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-center mt-3 text-xs text-gray-600">
 
             <div className="flex gap-3">
               <span>👤 7–10 yrs</span>
@@ -770,7 +770,7 @@ const [activeTime, setActiveTime] = useState(2);
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
 
         {/* TITLE */}
-        <h2 className="text-4xl font-semibold text-gray-800">
+        <h2 className="text-2xl md:text-4xl font-semibold text-gray-800">
           Popular Categories
         </h2>
 
@@ -780,7 +780,7 @@ const [activeTime, setActiveTime] = useState(2);
         </p>
 
         {/* ONE LINE FIXED ROW */}
-        <div className="mt-16 flex justify-between items-end gap-6">
+        <div className="mt-16 flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-end gap-6">
 
           {categories.map((cat, i) => {
             const isActive = i === active;
@@ -790,7 +790,7 @@ const [activeTime, setActiveTime] = useState(2);
                 key={i}
                 onClick={() => setActive(i)}
                 className={`
-                  relative flex-1 max-w-[200px] h-[140px] rounded-2xl border 
+                  relative flex-1 max-w-full md:w-[200px] h-[160px] md:h-[140px] rounded-2xl border 
                   flex items-end justify-center pb-4 text-sm font-medium
                   transition-all duration-300 cursor-pointer
 
@@ -865,7 +865,7 @@ const [activeTime, setActiveTime] = useState(2);
       {[...Array(12)].map((_, i) => (
         <div
           key={i}
-          className="min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
+          className="min-w-[240px] md:min-w-[280px] bg-white rounded-2xl p-3 shadow-sm border border-gray-200 hover:shadow-xl transition relative"
         >
 
           {/* SELLING FAST */}
@@ -887,7 +887,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* TAGS */}
-          <div className="flex gap-2 mt-2 flex-wrap">
+          <div className="flex gap-2 mt-2 overflow-x-auto no-scrollbar">
             <span className="text-xs px-2 py-1 border border-blue-300 rounded-full">English</span>
             <span className="text-xs px-2 py-1 border border-red-300 rounded-full">Intermediate</span>
             <span className="text-xs px-2 py-1 border border-yellow-400 rounded-full">4 classes</span>
@@ -904,7 +904,7 @@ const [activeTime, setActiveTime] = useState(2);
           </p>
 
           {/* FOOTER */}
-          <div className="flex justify-between items-center mt-3 text-xs text-gray-600">
+          <div className="flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-center mt-3 text-xs text-gray-600">
 
             <div className="flex gap-3">
               <span>👤 7–10 yrs</span>
@@ -933,7 +933,7 @@ const [activeTime, setActiveTime] = useState(2);
   <div className="max-w-[1200px] mx-auto px-4 md:px-6">
 
     {/* TITLE */}
-    <h2 className="text-4xl font-semibold text-gray-800 text-center">
+    <h2 className="text-2xl md:text-4xl font-semibold text-gray-800 text-center">
       Filter with Time
     </h2>
 
@@ -943,7 +943,7 @@ const [activeTime, setActiveTime] = useState(2);
     </p>
 
     {/* TIME FILTER CARDS */}
-    <div className="mt-10 flex justify-center gap-6 flex-wrap">
+    <div className="mt-10 flex justify-center gap-6 overflow-x-auto no-scrollbar">
 
       {[
         { title: "Morning classes", time: "8am – 12pm", color: "blue" },
@@ -978,7 +978,7 @@ const [activeTime, setActiveTime] = useState(2);
             key={i}
             onClick={() => setActiveTime(i)}
             className={`
-              relative w-[260px] h-[90px] rounded-xl border px-5 py-4 
+              relative min-w-[220px] md:w-[260px] h-[90px] rounded-xl border px-5 py-4 
               flex flex-col justify-center cursor-pointer transition-all duration-300
 
               ${
@@ -1045,7 +1045,7 @@ const [activeTime, setActiveTime] = useState(2);
 
         <div
           key={i}
-          className="min-w-[520px] bg-white rounded-2xl p-4 border border-gray-200 shadow-sm flex gap-4 items-center relative"
+          className="min-w-[520px] bg-white rounded-2xl p-4 border border-gray-200 shadow-sm flex flex-col md:flex-row gap-4 relative"
         >
 
           {/* SELLING FAST */}
@@ -1058,14 +1058,14 @@ const [activeTime, setActiveTime] = useState(2);
           {/* IMAGE */}
           <img
             src="https://images.unsplash.com/photo-1588072432836-e10032774350"
-            className="w-[200px] h-[140px] object-cover rounded-xl"
+            className="w-full md:w-[200px] h-[160px] md:h-[140px] object-cover rounded-xl"
           />
 
           {/* CONTENT */}
           <div className="flex-1">
 
             {/* TAGS */}
-            <div className="flex gap-2 flex-wrap">
+            <div className="flex gap-2 overflow-x-auto no-scrollbar">
               <span className="text-xs px-2 py-1 border border-yellow-400 rounded-full">English</span>
               <span className="text-xs px-2 py-1 border border-red-300 rounded-full">Intermediate</span>
               <span className="text-xs px-2 py-1 border border-blue-400 rounded-full">Morning class</span>
@@ -1082,7 +1082,7 @@ const [activeTime, setActiveTime] = useState(2);
             </p>
 
             {/* FOOTER */}
-            <div className="flex justify-between items-center mt-3 text-xs text-gray-600">
+            <div className="flex gap-4 overflow-x-auto no-scrollbar md:justify-between items-center mt-3 text-xs text-gray-600">
 
               <div className="flex gap-4">
                 <span>👤 7–10 yrs</span>
