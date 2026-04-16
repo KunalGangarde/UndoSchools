@@ -113,6 +113,7 @@ Steps:
 3. Import repository
 4. Click Deploy
 
+👉 Hosted: https://undo-schools.vercel.app
 ---
 
 ## 🎯 Key Highlights
@@ -139,7 +140,7 @@ Steps:
 **Kunal Gangarde**
 *Date Of Submission -> 16-04-2026
 
-* 🎓 Amity University, Raipur
+* 🎓 Amity University, Chhattisgarh
 * 💻 Aspiring Software Engineer
 
 ---
